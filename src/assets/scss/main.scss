@@ -1,5 +1,26 @@
 @import "/node_modules/bootstrap/scss/bootstrap.scss";
 
-body{
-    margin: 0px;
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(/src/assets/img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-color{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    
+}
+.bar {
+    margin: 20px auto;
+    color: #e12d0d;
+    border: 2px solid #e12d0d;
+    max-width: 65px;
+    opacity: 1;  
+    background-color: #e12d0d;
 }
